@@ -49,42 +49,42 @@ $(document).ready(function(){
 
     });
 
-    $("#pdf").click(function(){
+    // $("#pdf").click(function(){
 
-      window.open(this.href);
-    });
+    //   window.open(this.href);
+    // });
 
-    $(".button").click(function() {
+    // $(".button").click(function() {
 
-      // let id = JSON.stringify(this.id);
-      // console.log(id);
+    //   // let id = JSON.stringify(this.id);
+    //   // console.log(id);
 
-      if (this.id === "weatherButton"){
+    //   if (this.id === "weatherButton"){
 
-          window.open("https://nicholasmcconnell.github.io/homework-six/");
+    //       window.open("https://nicholasmcconnell.github.io/homework-six/");
 
-      } else if (this.id === "plannerButton"){
+    //   } else if (this.id === "plannerButton"){
 
-          window.open("https://nicholasmcconnell.github.io/homework-five/");
+    //       window.open("https://nicholasmcconnell.github.io/homework-five/");
 
-      } else if (this.id === "zillowButton") {
+    //   } else if (this.id === "zillowButton") {
 
-          window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
+    //       window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
 
-      } else if (this.id === "weatherButtonRepo"){
+    //   } else if (this.id === "weatherButtonRepo"){
 
-        window.open("https://github.com/nicholasmcconnell/homework-six");
+    //     window.open("https://github.com/nicholasmcconnell/homework-six");
 
-    } else if (this.id === "plannerButtonRepo"){
+    // } else if (this.id === "plannerButtonRepo"){
 
-        window.open("https://github.com/nicholasmcconnell/homework-five");
+    //     window.open("https://github.com/nicholasmcconnell/homework-five");
 
-    } else if (this.id === "zillowButtonRepo") {
+    // } else if (this.id === "zillowButtonRepo") {
 
-        window.open("https://github.com/nicholasmcconnell/project1_Group_Project/");
-    }
+    //     window.open("https://github.com/nicholasmcconnell/project1_Group_Project/");
+    // }
 
-    });
+    // });
 
 
 })
