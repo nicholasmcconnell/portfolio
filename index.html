@@ -35,6 +35,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#section4">Resume</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#section3">Contact</a>
+            </li>
             </ul>
         </div>
         </nav>
@@ -154,6 +157,74 @@
                     </div>   
                 </div>
             </div>
+
+        <!--Section: Contact v.2-->
+<section class="mb-4 ml-3 mr-3" id="section3">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact:</h2>
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control"placeholder="Name">
+                            <label for="name" class=""></label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control"placeholder="Email">
+                            <label for="email" class=""></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                            <label for="subject" class=""></label>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"placeholder="Message"></textarea>
+                            <label for="message"></label>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+
+            <div class="text-center text-md-center">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <p>Philadelphia, PA 19103, PA</p>
+                </li>
+
+                <li>
+                    <p>484-324-8276</p>
+                </li>
+
+                <li>
+                    <p>nicholas.mcconnell@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
     
     <script src="https://code.jquery.com/jquery-3.4.1.js"
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
