@@ -51,21 +51,33 @@ $(document).ready(function(){
 
     $(".button").click(function() {
 
-      var id = JSON.stringify(this.id);
-      console.log(id);
+      // let id = JSON.stringify(this.id);
+      // console.log(id);
 
-      if (id = "weatherButton"){
+      if (this.id === "weatherButton"){
 
           window.open("https://nicholasmcconnell.github.io/homework-six/");
 
-      } else if (id = "plannerButton"){
+      } else if (this.id === "plannerButton"){
 
           window.open("https://nicholasmcconnell.github.io/homework-five/");
 
-      } else if (id = "zillowButton") {
+      } else if (this.id === "zillowButton") {
 
           window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
-      }
+
+      } else if (this.id === "weatherButtonRepo"){
+
+        window.open("https://github.com/nicholasmcconnell/homework-six");
+
+    } else if (this.id === "plannerButtonRepo"){
+
+        window.open("https://github.com/nicholasmcconnell/homework-five");
+
+    } else if (this.id === "zillowButtonRepo") {
+
+        window.open("https://github.com/nicholasmcconnell/project1_Group_Project/");
+    }
 
     });
 
