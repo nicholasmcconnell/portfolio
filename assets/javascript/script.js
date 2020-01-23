@@ -49,6 +49,11 @@ $(document).ready(function(){
 
     });
 
+    $("#pdf").click(function(){
+
+      window.open(this.href);
+    });
+
     $(".button").click(function() {
 
       // let id = JSON.stringify(this.id);

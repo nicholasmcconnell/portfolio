@@ -133,10 +133,12 @@ margin-bottom: 50px;
   }
 
   /* resume */
-  .pdf {
+h6, h1, h2 {
+ text-align: center;
+}
 
-   
+#pdf {
+  align-content: center;
 
-    
 
-  }
+}
