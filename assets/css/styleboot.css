@@ -7,7 +7,7 @@ body {
 .container {
 
     background-color:black;
-    height: 100vh;
+    height: 100%;
     color:white;
     width: 100vw;
     margin-bottom: 20px;
@@ -30,8 +30,8 @@ p {
 
 #landingPage {
 
-    margin-top:25%;
-   text-align: center;
+  margin-top:20%;
+  text-align: center;
 
 }
 
@@ -40,13 +40,11 @@ p {
     margin-left: 35%;
 }
 
-#section1, #section3{
+/* .min{
 
-}
+  min-height: 10px;
 
-#section2, #section4{
-
-}
+} */
     
   
 html{
@@ -111,10 +109,13 @@ margin-bottom: 50px;
   }
   
   .text {
-    background-color: #4CAF50;
+    background-color:black;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: auto;
   }
 
   .projectImage {

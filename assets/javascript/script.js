@@ -12,14 +12,29 @@ $(document).ready(function(){
         window.open("https://nicholasmcconnell.github.io/homework-six/");
       });
 
+      $("#weatherButtonRepo").click(function() {
+
+        window.open("https://github.com/nicholasmcconnell/homework-six");
+      });
+
       $("#plannerButton").click(function() {
 
         window.open("https://nicholasmcconnell.github.io/homework-five/");
       });
 
+      $("#plannerButtonRepo").click(function() {
+
+        window.open("https://github.com/nicholasmcconnell/homework-five");
+      });
+
       $("#zillowButton").click(function() {
 
         window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
+      });
+
+      $("#zillowButton").click(function() {
+
+        window.open("https://github.com/nicholasmcconnell/project1_Group_Project");
       });
 
       $(".fa-linkedin").click(function(){
