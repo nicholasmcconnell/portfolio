@@ -37,6 +37,13 @@ $(document).ready(function(){
     //   window.open("https://github.com/nicholasmcconnell/project1_Group_Project");
     // });
 
+  //   $('#bt1').click(function() {
+  //     $('#contact-form').attr('action',
+  //                    'mailto:nicholas.mcconnell@gmail.com?subject=' +
+  //                    $('#subject').val() + '&body=' + $('#message').val());
+  //     $('#contact-form').submit();
+  // });
+
     $(".fa-linkedin").click(function(){
 
       window.open("http://linkedin.com/in/nickmcconnellmusic/")
