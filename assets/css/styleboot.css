@@ -22,7 +22,7 @@
 
   p {
     color: white;
-    font-size: larger;
+    font-size: 2.2vw;
   }
 
   hr {
@@ -70,7 +70,7 @@
 
   #headshot {
     max-width: 100%;
-    max-height: 100%
+    max-height: 100%;
   }
 
   /* PORTFOLIO */
@@ -158,5 +158,20 @@
       /* justify-content: center; */
       margin-left: 35%;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    #headshot {
+      max-width: 90%;
+      max-height: 90%;
+      margin-left: 10%;
+    }
+
+    #aboutText {
+      margin-left: 20%;
+    }
+ 
+
   }
 
