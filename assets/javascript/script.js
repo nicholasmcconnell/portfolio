@@ -1,41 +1,43 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $('.nav-link').click(function(){    
-        var divId = $(this).attr('href');
-         $('html, body').animate({
-          scrollTop: $(divId).offset().top - 54
-        }, 100);
-      });
+  $('.nav-link').click(function () {
+    var divId = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(divId).offset().top - 54
+    }, 100);
+  });
 
-    // $("#weatherButton").click(function() {
+  $(".navbar-toggler").toggleClass('show');
 
-    //   window.open("https://nicholasmcconnell.github.io/homework-six/");
-    // });
+  // $("#weatherButton").click(function() {
 
-    // $("#weatherButtonRepo").click(function() {
+  //   window.open("https://nicholasmcconnell.github.io/homework-six/");
+  // });
 
-    //   window.open("https://github.com/nicholasmcconnell/homework-six");
-    // });
+  // $("#weatherButtonRepo").click(function() {
 
-    // $("#plannerButton").click(function() {
+  //   window.open("https://github.com/nicholasmcconnell/homework-six");
+  // });
 
-    //   window.open("https://nicholasmcconnell.github.io/homework-five/");
-    // });
+  // $("#plannerButton").click(function() {
 
-    // $("#plannerButtonRepo").click(function() {
+  //   window.open("https://nicholasmcconnell.github.io/homework-five/");
+  // });
 
-    //   window.open("https://github.com/nicholasmcconnell/homework-five");
-    // });
+  // $("#plannerButtonRepo").click(function() {
 
-    // $("#zillowButton").click(function() {
+  //   window.open("https://github.com/nicholasmcconnell/homework-five");
+  // });
 
-    //   window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
-    // });
+  // $("#zillowButton").click(function() {
 
-    // $("#zillowButton").click(function() {
+  //   window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
+  // });
 
-    //   window.open("https://github.com/nicholasmcconnell/project1_Group_Project");
-    // });
+  // $("#zillowButton").click(function() {
+
+  //   window.open("https://github.com/nicholasmcconnell/project1_Group_Project");
+  // });
 
   //   $('#bt1').click(function() {
   //     $('#contact-form').attr('action',
@@ -44,54 +46,54 @@ $(document).ready(function(){
   //     $('#contact-form').submit();
   // });
 
-    $(".fa-linkedin").click(function(){
+  $(".fa-linkedin").click(function () {
 
-      window.open("http://linkedin.com/in/nickmcconnellmusic/")
+    window.open("http://linkedin.com/in/nickmcconnellmusic/")
 
-    });
+  });
 
-    $(".fa-github").click(function(){
+  $(".fa-github").click(function () {
 
-      window.open("https://github.com/nicholasmcconnell")
+    window.open("https://github.com/nicholasmcconnell")
 
-    });
+  });
 
-    // $("#pdf").click(function(){
+  // $("#pdf").click(function(){
 
-    //   window.open(this.href);
-    // });
+  //   window.open(this.href);
+  // });
 
-    // $(".button").click(function() {
+  // $(".button").click(function() {
 
-    //   // let id = JSON.stringify(this.id);
-    //   // console.log(id);
+  //   // let id = JSON.stringify(this.id);
+  //   // console.log(id);
 
-    //   if (this.id === "weatherButton"){
+  //   if (this.id === "weatherButton"){
 
-    //       window.open("https://nicholasmcconnell.github.io/homework-six/");
+  //       window.open("https://nicholasmcconnell.github.io/homework-six/");
 
-    //   } else if (this.id === "plannerButton"){
+  //   } else if (this.id === "plannerButton"){
 
-    //       window.open("https://nicholasmcconnell.github.io/homework-five/");
+  //       window.open("https://nicholasmcconnell.github.io/homework-five/");
 
-    //   } else if (this.id === "zillowButton") {
+  //   } else if (this.id === "zillowButton") {
 
-    //       window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
+  //       window.open("https://nicholasmcconnell.github.io/project1_Group_Project/");
 
-    //   } else if (this.id === "weatherButtonRepo"){
+  //   } else if (this.id === "weatherButtonRepo"){
 
-    //     window.open("https://github.com/nicholasmcconnell/homework-six");
+  //     window.open("https://github.com/nicholasmcconnell/homework-six");
 
-    // } else if (this.id === "plannerButtonRepo"){
+  // } else if (this.id === "plannerButtonRepo"){
 
-    //     window.open("https://github.com/nicholasmcconnell/homework-five");
+  //     window.open("https://github.com/nicholasmcconnell/homework-five");
 
-    // } else if (this.id === "zillowButtonRepo") {
+  // } else if (this.id === "zillowButtonRepo") {
 
-    //     window.open("https://github.com/nicholasmcconnell/project1_Group_Project/");
-    // }
+  //     window.open("https://github.com/nicholasmcconnell/project1_Group_Project/");
+  // }
 
-    // });
+  // });
 
 
 })
