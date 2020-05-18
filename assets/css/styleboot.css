@@ -1,74 +1,63 @@
-body {
+  /* DOCUMENT */
+  html {
+    scroll-behavior: smooth;
+  }
 
+  body {
     background-color: black;
     font-family: 'Gelasio', serif;
     color: white;
-}
-.container {
+    
+  }
 
-    background-color:black;
+  .container {
+    background-color: black;
     height: 100%;
-    color:white;
+    color: white;
     width: 100vw;
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
+  }
 
-p {
+  p {
     color: white;
     font-size: larger;
-}
-  
-/* section{
+  }
+
+  /* NAVBAR */
+  /* .navbar-brand{
+    float: left;
+  }
+
+  .navMenu {
     
-    height: 100vh;
-    color:white;
-    background-color: black;
-    /* width: 100vw; */
-/* }  */
+    margin-left: 50%;
+   
+  } */
 
-#landingPage {
+  /* Landing Page */
 
-  margin-top:5%;
-  text-align: center;
+  #landingPage {
+    margin-top: 5%;
+    text-align: center;
+  }
 
-}
-
-#icons {
+  #icons {
     /* justify-content: center; */
     margin-left: 35%;
-}
+  }
 
-/* .min{
+  /* ABOUT */
 
-  min-height: 10px;
-
-} */
-    
-  
-html{
-scroll-behavior:smooth;
-}
-nav{
-background: red;
-margin-bottom: 50px;
-}
-
-#navLink {
-    
-}
-
-/* About Page */
-
-#headshot {
+  #headshot {
     width: 100%;
     height: auto;
-}
+  }
 
-/* Portfolio */
+  /* PORTFOLIO */
 
-.image {
+  .image {
     opacity: 1;
     display: block;
     width: 100%;
@@ -76,7 +65,7 @@ margin-bottom: 50px;
     transition: .5s ease;
     backface-visibility: hidden;
   }
-  
+
   .middle {
     transition: .5s ease;
     opacity: 0;
@@ -88,7 +77,7 @@ margin-bottom: 50px;
     text-align: center;
   }
 
-/* 
+  /* 
   .middle2 {
     transition: .5s ease;
     opacity: 0;
@@ -99,17 +88,17 @@ margin-bottom: 50px;
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   } */
-  
+
   .container:hover .projectImage {
     opacity: 0.3;
   }
-  
+
   .container:hover .middle {
     opacity: 1;
   }
-  
+
   .text {
-    background-color:black;
+    background-color: black;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
@@ -119,7 +108,6 @@ margin-bottom: 50px;
   }
 
   .projectImage {
-
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -128,17 +116,15 @@ margin-bottom: 50px;
   }
 
   .projectButton {
-
     margin-bottom: 5px;
   }
 
-  /* resume */
-h6, h1, h2 {
- text-align: center;
-}
+  /* RESUME */
 
-#pdf {
-  align-content: center;
+  h6, h1, h2 {
+    text-align: center;
+  }
 
-
-}
+  #pdf {
+    align-content: center;
+  }
