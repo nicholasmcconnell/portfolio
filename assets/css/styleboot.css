@@ -22,7 +22,7 @@
 
   p {
     color: white;
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
 
   hr {
@@ -49,6 +49,11 @@
     text-align: center;
   }
 
+  #aboutText {
+    color: white;
+    font-size: 2.2vw;
+  }
+
   .icons {
     /* justify-content: center; */
     margin-left: 41%;
@@ -62,7 +67,7 @@
 
   .fa-github {
     display: inline-block;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     max-height: fit-content;
   }
 
@@ -143,14 +148,33 @@
     text-align: center;
   }
 
-  #pdf {
-    align-content: center;
+  .pdf {
+   display: block;
+   margin: auto;
   }
+
+  /* CONTACT */
+
+  #contact-form {
+    margin-left: 5vw;
+  }
+
+  .contactInfo {
+    margin-right: 5vw;
+
+  }
+
+  /* MEDIA QUERIES */
 
   @media only screen and (max-width: 375px) {
     .fa-linkedin {
     
       margin-left: -30;
+    
+    }
+    .fa-github {
+    
+      margin-left: 5vw;
     
     }
 
