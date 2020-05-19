@@ -1,2 +1,2 @@
 # portfolio
-Nicks’s Portfolio
+Nicks’s Portfolio - https://nicholasmcconnell.github.io/portfolio/
