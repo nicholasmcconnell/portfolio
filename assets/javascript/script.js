@@ -57,6 +57,11 @@ $(document).ready(function () {
     window.open("https://github.com/nicholasmcconnell")
 
   });
+  $(".fa-file-pdf-o").click(function () {
+
+    window.open("assets/images/Nick McConnell Coding Resume - 5_18_20.pdf")
+
+  });
 
   // $("#pdf").click(function(){
 

@@ -49,34 +49,43 @@
     text-align: center;
   }
 
-  #aboutText {
-    color: white;
-    font-size: 2.2vw;
-  }
 
   .icons {
-    /* justify-content: center; */
-    margin-left: 41%;
+    justify-content: center;
+    /* margin-left: 35%; */
   }
 
-  .fa-linkedin {
-    display: inline-block;
-    margin-right: 10px;
-    max-height: fit-content;
+  .fa {
+    /* display: inline-block; */
+    margin-right: 3%;
+    /* max-height: fit-content; */
   }
 
-  .fa-github {
+  /* .fa-github {
     display: inline-block;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     max-height: fit-content;
-  }
+  } */
 
   /* ABOUT */
 
   #headshot {
-    max-width: 90%;
-    max-height: 90%;
-    margin-left: 10%;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 20%;
+    float: left;
+  
+  }
+
+
+  #aboutText {
+    color: white;
+    font-size: 2.2vw;
+    float: left;
+  }
+
+  li {
+    font-size: 2vw;
   }
 
   /* PORTFOLIO */
@@ -89,6 +98,7 @@
     transition: .5s ease;
     backface-visibility: hidden;
   }
+
 
   .middle {
     transition: .5s ease;
@@ -167,22 +177,36 @@
 
   /* MEDIA QUERIES */
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 414px) {
+
+    .icons {
+      display: flex;
+      /* margin-right: 5%; */
+      
+    }
+
+    .fa {
+      /* margin-right: 5%; */
+    }
     .fa-linkedin {
     
-      margin-left: -30;
+      /* margin-left:%; */
     
     }
     .fa-github {
     
-      margin-left: 5vw;
+      /* margin-left: 5vw; */
     
     }
 
-    .icons {
-      /* justify-content: center; */
-      margin-left: 35%;
-    }
+
+
+  
+    /* #headshot {
+      max-width: 70%;
+      max-height: 70%;
+      margin-left: 10%;
+    } */
   }
 
   @media only screen and (max-width: 768px) {
