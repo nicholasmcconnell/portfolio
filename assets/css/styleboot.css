@@ -69,6 +69,16 @@
 
   /* ABOUT */
 
+  .card {
+    color: black;
+  }
+
+  .appCards {
+    height: 25vh;
+    margin-right: 10vw;
+    float: right;
+  }
+
   #headshot {
     max-width: 100%;
     max-height: 100%;
