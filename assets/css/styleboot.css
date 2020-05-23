@@ -32,15 +32,16 @@
 
   /* NAVBAR */
 
-  /* .navbar-brand{
-    float: left;
+  .navbar-brand{
+    font-size: max(2vw, 20px);
+    
   }
 
   .navMenu {
     
     margin-left: 50%;
    
-  } */
+  }
 
   /* Landing Page */
 
@@ -74,7 +75,7 @@
   }
 
   .appCards {
-   
+   float: left;
   }
 
   #headshot {
