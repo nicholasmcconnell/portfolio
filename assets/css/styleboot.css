@@ -32,15 +32,12 @@
 
   /* NAVBAR */
 
-  .navbar-brand{
+  .navbar-brand {
     font-size: max(2vw, 20px);
-    
   }
 
   .navMenu {
-    
     margin-left: 50%;
-   
   }
 
   /* Landing Page */
@@ -49,7 +46,6 @@
     margin-top: 5%;
     text-align: center;
   }
-
 
   .icons {
     justify-content: center;
@@ -74,8 +70,28 @@
     color: black;
   }
 
+  .appDiv {
+    width: auto;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* 
+  position: relative;
+    width: auto;
+    height: auto; */
+    text-align: center;
+  }
+
   .appCards {
-   float: left;
+    display: inline-block;
+    /* float: left; */
+    margin: 1%;
+  
+    /* align-self: center; */
+  }
+
+  .imgCard {
+    margin: 1%;
+   display: inline-block;
   }
 
   #headshot {
@@ -83,9 +99,7 @@
     max-height: 100%;
     margin-left: 20%;
     float: left;
-  
   }
-
 
   #aboutText {
     color: white;
@@ -107,7 +121,6 @@
     transition: .5s ease;
     backface-visibility: hidden;
   }
-
 
   .middle {
     transition: .5s ease;
@@ -140,11 +153,15 @@
     opacity: 1;
   }
 
-  .text {
+  .buttonDiv {
+    text-align: center;
+  }
+
+  .button {
     background-color: black;
     color: white;
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 12px;
+    /* padding: 16px 32px; */
     border-radius: 5px;
     margin-bottom: 5px;
     width: auto;
@@ -169,8 +186,8 @@
   }
 
   .pdf {
-   display: block;
-   margin: auto;
+    display: block;
+    margin: auto;
   }
 
   /* CONTACT */
@@ -181,55 +198,53 @@
 
   .contactInfo {
     margin-right: 5vw;
-
   }
 
   /* MEDIA QUERIES */
 
-  @media only screen and (max-width: 414px) {
+  /* @media only screen and (max-width: 414px) {
 
     .icons {
       display: flex;
-      /* margin-right: 5%; */
+      margin-right: 5%;
       
     }
 
     .fa {
-      /* margin-right: 5%; */
+      margin-right: 5%;
     }
     .fa-linkedin {
     
-      /* margin-left:%; */
+      margin-left:%;
     
     }
     .fa-github {
     
-      /* margin-left: 5vw; */
+      margin-left: 5vw;
     
     }
 
 
 
   
-    /* #headshot {
+    #headshot {
       max-width: 70%;
       max-height: 70%;
       margin-left: 10%;
-    } */
-  }
+    }
+  } */
 
-  @media only screen and (max-width: 768px) {
-
-    #headshot {
-      max-width: 90%;
-      max-height: 90%;
-      margin-left: 10%;
+  @media only screen and (min-width: 993px) {
+    .imgCard {
+      margin: 1%;
+     display: inline-block;
+     position: absolute;
+     top: 50%;
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
     }
 
-    #aboutText {
-      margin-left: 0%;
-    }
+   
  
 
-  }
-
+  } 
