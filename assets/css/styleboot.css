@@ -82,6 +82,8 @@
   }
 
   .appCards {
+   width: 11rem;
+   height: 15rem;
     display: inline-block;
     /* float: left; */
     margin: 1%;
@@ -90,8 +92,16 @@
   }
 
   .imgCard {
+    color: whitesmoke;
+    background-color: black;
     margin: 1%;
    display: inline-block;
+  }
+
+  .appImg {
+    height: 40%;
+    width: 100%;
+   
   }
 
   #headshot {
@@ -160,11 +170,12 @@
   .button {
     background-color: black;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     /* padding: 16px 32px; */
     border-radius: 5px;
     margin-bottom: 5px;
-    width: auto;
+    height: 30%;
+    width: 40%;
   }
 
   .projectImage {
