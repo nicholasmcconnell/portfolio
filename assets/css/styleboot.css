@@ -82,7 +82,7 @@
   }
 
   .appCards {
-    width: 11rem;
+    width: 12rem;
     max-height: 15rem;
     display: inline-block;
     /* float: left; */
@@ -206,16 +206,20 @@
 
 
   #contact-form {
-    /* margin-left: 5vw; */
+    margin-left: 4vw;
   }
 
   .contactInfo {
     margin-top: 3.5vw;
+    margin-right: 4vw;
+    margin-left: 2vw;
   }
 
   /* MEDIA QUERIES */
 
+
   @media only screen and (max-width: 375px) {
+
     .appCards {
       width: 10rem;
       /* height: 15rem; */
@@ -224,16 +228,30 @@
     }
     .contactInfo {
       margin-top: 0vw;
+      margin-right: 0vw;
+    }
+    #contact-form {
+      margin-left: 0vw;
     }
   }
 
   @media only screen and (max-width: 414px) {
+    .appCards {
+      width: 10rem;
+      /* height: 15rem; */
+      /* display: inline-block;
+      margin: 1%; */
+    }
     p {
       font-size: 5vw;
     }
 
     .contactInfo {
       margin-top: 0vw;
+      margin-right: 0vw;
+    }
+    #contact-form {
+      margin-left: 0vw;
     }
     /* .icons {
       display: flex;
@@ -256,6 +274,13 @@
     } */
   }
 
+  @media only screen and (max-width: 993px) {
+    .contactInfo {
+      margin-top: 3.5vw;
+      margin-right: 0vw;
+    }
+  }
+
   @media only screen and (min-width: 993px) {
     .imgCard {
       margin: 1%;
@@ -265,4 +290,6 @@
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
     }
+
+    
   }
