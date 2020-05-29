@@ -8,6 +8,10 @@
   display: inline-block;
   float: none;
 }
+.responsiveCard {
+  max-width: 18rem !important;
+}
+
 
 /* Decorations */
 .col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
