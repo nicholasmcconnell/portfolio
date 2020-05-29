@@ -85,6 +85,7 @@
     width: 12rem;
     max-height: 15rem;
     display: inline-block;
+  
     /* float: left; */
     margin: 1%;
     /* align-self: center; */
@@ -95,6 +96,8 @@
     background-color: black;
     /* margin: 1%; */
     display: inline-block;
+    text-align: center;
+   
   }
 
   .appImg {
@@ -164,7 +167,7 @@
   }
   .portolioButtonDiv {
     text-align: center;
-    margin-top: 1.5vw;
+    margin-top: 2.5vw;
   }
 
   /* .image {
