@@ -8,7 +8,7 @@
   display: inline-block;
   float: none;
 }
-.responsiveCard {
+li {
   max-width: 18rem !important;
 }
 
