@@ -22,7 +22,7 @@ $(document).ready(function () {
   });
   $(".fa-file-pdf-o").click(function () {
 
-    window.open("assets/images/Nick McConnell Coding Resume.pdf")
+    window.open("https://nicholasmcconnell.github.io/portfolio/assets/images/Nick%20McConnell%20Coding%20Resume.pdf")
 
   });
 
