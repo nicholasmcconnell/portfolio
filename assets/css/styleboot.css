@@ -95,9 +95,9 @@
     background-color:rgb(246, 243, 237);
     overflow: auto;
     padding-top: 5px;
-    width: 13rem;
-    min-height: 14rem;
-    max-height: 14rem;
+    width: 15rem;
+    min-height: 15rem;
+    max-height: 15rem;
     display: inline-block;
     margin: 1%;
   }
@@ -124,6 +124,11 @@
     width: 100%; */
    
     
+  }
+
+  .profileImg {
+    width: 17rem;
+    margin-bottom: 10px;
   }
 
   .buttonDiv {
@@ -235,9 +240,14 @@
   /* MEDIA QUERIES */
 
   @media only screen and (max-width: 375px) {
+    .profileImg {
+      width: 15rem;
+    }
 
     .appCards {
       width: 10rem;
+      min-height: 13rem;
+      max-height: 13rem;
     }
     .portfolioCard {
       display: inline-block;
@@ -253,8 +263,14 @@
   }
 
   @media only screen and (max-width: 414px) {
+    .profileImg {
+      width: 15rem;
+    }
     .appCards {
       width: 10rem;
+      min-height: 13rem;
+      max-height: 13rem;
+     
     }
     .portfolioCard {
       display: inline-block;
