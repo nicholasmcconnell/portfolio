@@ -99,8 +99,8 @@ img {
 .mobileImg {
   margin: 0 3px 0 3px;
   width: 32.5%;
-  min-height: 90px;
-  min-width: 50px;
+  /* min-height: 90px; */
+  min-width: 45px;
   border-radius: 5px;
   margin-top: -10px;
 }
