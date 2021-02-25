@@ -287,10 +287,19 @@ li {
   .profileImg {
     width: 15rem;
   }
+  .appDiv {
+    /* text-align: cent÷er; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* overflow-y: auto; */
+    height: 425px;
+    width: 75%;
+    /* background-color: blue; */
+  }
   .appCards {
-    width: 10rem;
-    min-height: 13rem;
-    max-height: 13rem;
+    /* make scrolable */
+    min-width: 250px;
+    min-height: 250px;
   }
   .portfolioCard {
     display: inline-block;
