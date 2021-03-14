@@ -93,7 +93,14 @@ img {
 }
 .card-title {
   /* margin-top: 10px; */
-  margin-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.carouselTitle {
+  /* text-decoration: underline; */
+  margin-top: 0;
+
+  margin-bottom: 10px;
 }
 
 .mobileImg {
