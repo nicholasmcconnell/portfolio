@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   $(".fa-linkedin").click(function () {
 
-    window.open("http://linkedin.com/in/nickmcconnellmusic/")
+    window.open("http://linkedin.com/in/nickmcconnell611/")
 
   });
 
